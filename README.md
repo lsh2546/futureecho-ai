@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.4 seconds
-Output:
 # FutureEcho AI
 
 > **See the Future. Change the Outcome.**
@@ -10,7 +7,7 @@ Output:
 [![React](https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-FutureEcho AI is an AI-powered **Decision Twin** for disaster response. Instead of stopping at ?쏻hat is happening??? it helps emergency leaders ask:
+FutureEcho AI is an AI-powered **Decision Twin** for disaster response. Instead of stopping at “What is happening?”, it helps emergency leaders ask:
 
 > **What happens if we choose a different action?**
 
@@ -22,13 +19,13 @@ Built for the **IGAD Hackathon 2026**.
 
 Most early-warning systems describe one forecast. FutureEcho turns a live hazard into multiple explorable futures:
 
-1. **AI Futures Explorer** ??compare evacuating now, waiting six hours, or taking no action.
-2. **Future Memory** ??read a simulated dispatch written from 24 hours ahead.
-3. **Outcome Difference** ??compare lives, roads, hospitals, water, agriculture, and economic loss.
-4. **Decision Confidence** ??inspect confidence, data sources, assumptions, and uncertainty.
-5. **Community impact model** ??see every decision propagate through critical public systems.
+1. **AI Futures Explorer** — compare evacuating now, waiting six hours, or taking no action.
+2. **Future Memory** — read a simulated dispatch written from 24 hours ahead.
+3. **Outcome Difference** — compare lives, roads, hospitals, water, agriculture, and economic loss.
+4. **Decision Confidence** — inspect confidence, data sources, assumptions, and uncertainty.
+5. **Community impact model** — see every decision propagate through critical public systems.
 
-The result is a decision platform?봭ot another weather dashboard.
+The result is a decision platform—not another weather dashboard.
 
 ## Screenshots
 
@@ -104,25 +101,25 @@ The deployment build is emitted to `dist/`.
 
 ```text
 futureecho-ai/
-?쒋?? app/
-??  ?쒋?? globals.css          # Design system and responsive styles
-??  ?쒋?? layout.tsx           # Metadata and application shell
-??  ?쒋?? loading.tsx          # Accessible loading experience
-??  ?붴?? page.tsx             # Futures Explorer and simulation UI
-?쒋?? build/
-??  ?붴?? sites-vite-plugin.ts # Deployment integration
-?쒋?? db/                      # Optional persistence foundation
-?쒋?? drizzle/                 # Database migration metadata
-?쒋?? public/
-??  ?쒋?? screenshots/         # README and submission screenshots
-??  ?붴?? og.png               # Social preview artwork
-?쒋?? tests/
-??  ?붴?? rendered-html.test.mjs
-?쒋?? worker/
-??  ?붴?? index.ts             # Cloudflare-compatible entrypoint
-?쒋?? LICENSE
-?쒋?? package.json
-?붴?? vite.config.ts
+├── app/
+│   ├── globals.css          # Design system and responsive styles
+│   ├── layout.tsx           # Metadata and application shell
+│   ├── loading.tsx          # Accessible loading experience
+│   └── page.tsx             # Futures Explorer and simulation UI
+├── build/
+│   └── sites-vite-plugin.ts # Deployment integration
+├── db/                      # Optional persistence foundation
+├── drizzle/                 # Database migration metadata
+├── public/
+│   ├── screenshots/         # README and submission screenshots
+│   └── og.png               # Social preview artwork
+├── tests/
+│   └── rendered-html.test.mjs
+├── worker/
+│   └── index.ts             # Cloudflare-compatible entrypoint
+├── LICENSE
+├── package.json
+└── vite.config.ts
 ```
 
 ## Validation
@@ -151,4 +148,3 @@ All values in this prototype are representative simulation data. FutureEcho prov
 ## License
 
 Distributed under the [MIT License](LICENSE).
-
